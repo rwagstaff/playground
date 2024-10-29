@@ -1,0 +1,106 @@
+<div class="keyboard theme--light">
+
+</div>
+<style>
+
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .keyboard__item--bg-primary {
+        background-color: #fff;
+    }
+
+    .keyboard__item--bg-secondary {
+        background-color: #aeb3be;
+        flex: 0.5
+    }
+
+    .theme--light {
+        background: rgba(206, 210, 217, 0.7);
+    }
+
+    .keyboard {
+        margin: 0 auto;
+        width: 100vw;
+        height: 422px;
+        padding: 7px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .keyboard__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .keyboard__row--number .keyboard__item .keyboard__item-letter {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+
+    .keyboard__item {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        color: #000;
+        transition: all 0.2s;
+        cursor: pointer;
+        margin: 0px 4px 0px 4px;
+    }
+
+    .keyboard__item--tab {
+        width: 134px;
+    }
+
+
+    .keyboard__item:active {
+        transform: translateY(-70px) scaleY(1.5);
+        padding-bottom: 20px;
+
+    }
+
+    .keyboard__item--tab {
+        width: 134px;
+    }
+
+    .keyboard__row--tab .keyboard__item {
+        min-width: 85px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .keyboard__row--tab .keyboard__item:not(.keyboard__item--tab) {
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    .keyboard__item--tab {
+        width: 134px !important;
+    }
+
+
+    .keyboard__item--two {
+        flex-direction: column;
+        padding: 7px 0;
+        justify-content: space-between !important;
+    }
+
+    .keyboard__item--caps {
+        width: 156px !important;
+        display: block !important;
+    }
+
+
+    .keyboard__item--space {
+        flex: 1
+    }
+
+
+</style>

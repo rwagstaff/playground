@@ -1,0 +1,468 @@
+<!--<div class="keyboard theme&#45;&#45;light">-->
+<!--    <div class="keyboard__row keyboard__row&#45;&#45;number">-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">~</div>-->
+<!--            <div class="keyboard__item-letter">`</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">!</div>-->
+<!--            <div class="keyboard__item-letter">1</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">2</div>-->
+<!--            <div class="keyboard__item-letter">@</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">#</div>-->
+<!--            <div class="keyboard__item-letter">3</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">$</div>-->
+<!--            <div class="keyboard__item-letter">4</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">%</div>-->
+<!--            <div class="keyboard__item-letter">5</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">6</div>-->
+<!--            <div class="keyboard__item-letter">^</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">7</div>-->
+<!--            <div class="keyboard__item-letter">&</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">*</div>-->
+<!--            <div class="keyboard__item-letter">8</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">(</div>-->
+<!--            <div class="keyboard__item-letter">9</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">)</div>-->
+<!--            <div class="keyboard__item-letter">0</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">-</div>-->
+<!--            <div class="keyboard__item-letter">_</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">+</div>-->
+<!--            <div class="keyboard__item-letter">=</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter keyboard__item-letter">-->
+<!--                delete-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="keyboard__row keyboard__row&#45;&#45;tab">-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;tab"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter u-align-left">tab</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">Q</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">W</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">E</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">R</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">T</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">Y</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">U</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">I</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">O</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">P</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">{</div>-->
+<!--            <div class="keyboard__item-letter">[</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">}</div>-->
+<!--            <div class="keyboard__item-letter">]</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">|</div>-->
+<!--            <div class="keyboard__item-letter">\</div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="keyboard__row keyboard__row&#45;&#45;caps">-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;caps"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter u-align-left">caps lock</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">A</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">S</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">D</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">F</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">G</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">H</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">J</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">K</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">L</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">:</div>-->
+<!--            <div class="keyboard__item-letter">;</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div-->
+<!--                    class="keyboard__item-letter"-->
+<!--                    style="position: relative; top: 10px;"-->
+<!--            >-->
+<!--                "-->
+<!--            </div>-->
+<!--            <div class="keyboard__item-letter">'</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;return"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">return</div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="keyboard__row keyboard__row&#45;&#45;shift">-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-primary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;shift"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter u-align-left">shift</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">Z</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">X</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">C</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">V</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">B</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">N</div>-->
+<!--        </div>-->
+<!--        <div class="keyboard__item keyboard__item&#45;&#45;bg-primary">-->
+<!--            <div class="keyboard__item-letter">M</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">&lt;</div>-->
+<!--            <div class="keyboard__item-letter">,</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">-->
+<!--                &gt;-->
+<!--            </div>-->
+<!--            <div class="keyboard__item-letter">.</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">-->
+<!--                ?-->
+<!--            </div>-->
+<!--            <div class="keyboard__item-letter">/</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-primary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;shift"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">shift</div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="keyboard__row keyboard__row&#45;&#45;last">-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;smile"-->
+<!--        >-->
+<!--            <img src="smile.svg" alt=""/>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;left-number"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter u-align-left">.?123</div>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;mic"-->
+<!--        >-->
+<!--            <img src="mic.svg" alt=""/>-->
+<!--        </div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-primary keyboard__item&#45;&#45;space"-->
+<!--        ></div>-->
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;right-number"-->
+<!--        >-->
+<!--            <div class="keyboard__item-letter">.?123</div>-->
+<!--        </div>-->
+
+<!--        <div-->
+<!--                class="keyboard__item keyboard__item&#45;&#45;two keyboard__item&#45;&#45;bg-secondary keyboard__item&#45;&#45;spec keyboard__item&#45;&#45;keyboard"-->
+<!--        >-->
+<!--            &lt;!&ndash;                <img src="keyboard.svg" alt="" />&ndash;&gt;-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="keyboard theme--light">
+
+</div>
+<style>
+
+    *,
+    *:before,
+    *:after {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    .keyboard__item--bg-primary {
+        background-color: #fff;
+    }
+
+    .keyboard__item--bg-secondary {
+        background-color: #aeb3be;
+        flex: 0.5
+    }
+
+    .theme--light {
+        background: rgba(206, 210, 217, 0.7);
+    }
+
+    .keyboard {
+        margin: 0 auto;
+        width: 100vw;
+        height: 422px;
+        padding: 7px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .keyboard__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .keyboard__row--number .keyboard__item {
+        min-width: 84px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px;
+        margin: 0 8px 0 8px;
+    }
+
+    .keyboard__row--number .keyboard__item .keyboard__item-letter {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .keyboard__item--delete {
+        width: 134px !important;
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    .keyboard__item--spec {
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    .keyboard__item--spec .keyboard__item-letter {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        padding: 25px 15px 11px 15px;
+        text-align: right;
+    }
+
+    .u-align-left {
+        text-align: left !important;
+    }
+
+    .keyboard__item {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        color: #000;
+        transition: all 0.2s;
+        cursor: pointer;
+        margin: 0px 4px 0px 4px;
+    }
+
+    .keyboard__item:hover {
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .keyboard__item:active {
+        transform: translateY(-70px) scaleY(1.5);
+        padding-bottom: 20px;
+
+    }
+
+    .keyboard__item--tab {
+        width: 134px;
+    }
+
+    .keyboard__row--tab .keyboard__item,
+    .keyboard__row--caps .keyboard__item,
+    .keyboard__row--shift .keyboard__item {
+        min-width: 85px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .keyboard__row--tab .keyboard__item:not(.keyboard__item--tab),
+    .keyboard__row--caps .keyboard__item:not(.keyboard__item--caps),
+    .keyboard__row--shift .keyboard__item:not(.keyboard__item--shift) {
+        font-size: 27px;
+        line-height: 32px;
+    }
+
+    .keyboard__item--tab {
+        width: 134px !important;
+    }
+
+    .keyboard__item--tab .keyboard__item-letter {
+        padding-top: 45px !important;
+    }
+
+    .keyboard__item--two {
+        flex-direction: column;
+        padding: 7px 0;
+        justify-content: space-between !important;
+    }
+
+    .keyboard__item--caps {
+        width: 156px !important;
+        display: block !important;
+    }
+
+    .keyboard__item--caps .keyboard__item-letter,
+    .keyboard__item--return .keyboard__item-letter,
+    .keyboard__item--shift .keyboard__item-letter {
+        padding-top: 45px !important;
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    .keyboard__item--return {
+        width: 156px !important;
+    }
+
+    .keyboard__item--shift {
+        width: 203px !important;
+        display: block !important;
+    }
+
+    .keyboard__row--last img {
+        width: 38px;
+        height: 38px;
+        margin-top: 35px !important;
+        margin-left: 10px !important;
+    }
+
+    .keyboard__row--last .keyboard__item {
+        display: block !important;
+        height: 80px;
+    }
+
+    .keyboard__item--space {
+        flex: 1
+    }
+
+    .keyboard__row--last .keyboard__item--smile {
+        width: 127px !important;
+    }
+
+    .keyboard__row--last .keyboard__item--mic {
+        width: 124px !important;
+    }
+
+    .keyboard__row--last .keyboard__item--left-number {
+        width: 123px !important;
+    }
+
+    .keyboard__row--last .keyboard__item--right-number {
+        width: 190px !important;
+    }
+
+    .keyboard__row--last .keyboard__item--left-number .keyboard__item-letter,
+    .keyboard__row--last .keyboard__item--right-number .keyboard__item-letter {
+        padding-top: 45px !important;
+    }
+
+    .keyboard__row--last .keyboard__item--keyboard {
+        width: 191px !important;
+    }
+
+    .keyboard__row--last .keyboard__item--keyboard img {
+        width: 32px !important;
+        height: 32px !important;
+        margin-left: 154px !important;
+        margin-top: 41px !important;
+    }
+
+</style>
