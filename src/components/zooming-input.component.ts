@@ -24,7 +24,7 @@ export class ZoomingInputComponent extends HTMLElement {
 
 
         const container = this.shadowRoot.querySelector('#form-container');
-        const input = this.shadowRoot.querySelector('#firstName');
+        const input = this.shadowRoot.querySelector('#firstName') as HTMLInputElement;
         const goBack = this.shadowRoot.querySelector('#goBack');
 
         goBack?.addEventListener('click', () => {

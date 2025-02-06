@@ -33,23 +33,23 @@ export class AnimatedNumberComponent extends HTMLElement {
 
         randomButton.addEventListener('click', () => {
             const random = Math.floor(Math.random() * 1000);
-            animateDigits( random);
+            animateDigits(random);
         });
 
         function animateDigits(newNumber) {
             let start = 0;
 
-                numberDisplay.innerHTML = start.toString();
-               const  setInterval(() => {
-                    start++;
-                    numberDisplay.innerHTML = start.toString();
-                    if (start === newNumber) {
-                        clearInterval();
-                    }
-                }, 100)
+            numberDisplay.innerHTML = start.toString();
+            const id = setInterval(() => {
                 start++;
-            }
+                numberDisplay.innerHTML = start.toString();
+                if (start === newNumber) {
+                    clearInterval(id);
+                }
+            }, 100);
+            start++;
         }
+
 
         function gsapAnimate(newDigit, oldDigit, digitSpan, i) {
             // Use GSAP to animate the digits
@@ -67,7 +67,7 @@ export class AnimatedNumberComponent extends HTMLElement {
         numberInput.addEventListener('input', () => {
             const newNumber = numberInput.value as any;
             if (!isNaN(newNumber) && newNumber !== '') {
-                animateDigits(currentNumber, newNumber);
+                animateDigits(newNumber);
             }
         });
 

@@ -1,5 +1,4 @@
 import {gsap} from "gsap";
-import {s} from "vite/dist/node/types.d-aGj9QkWt";
 
 
 const template = document.createElement('template');
@@ -19,7 +18,6 @@ template.innerHTML = `
 
 export class ScanItemsComponent extends HTMLElement {
     connectedCallback() {
-        const primary = '#FFA500';
         this.attachShadow({mode: 'open'});
         this.shadowRoot.appendChild(template.content.cloneNode(true));
 
